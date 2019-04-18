@@ -89,6 +89,11 @@ class _NoticeListPageState extends State<ListaNoticia> {
 
 
 
+    @override
+    void initState(){
+      loadNoticias();
+    }
+
 
     }
 
